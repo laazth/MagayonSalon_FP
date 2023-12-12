@@ -1,0 +1,109 @@
+    <html>
+    <head>
+        <title>Magayon Salon</title>
+        <link rel="stylesheet" href="main_style.css" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    </head>
+    <body>
+        <div class="headerup">
+            <div class="navbar">
+                <img src="pic/logo.png" alt="logo" class="logo">
+                <h1>MAGAYON SALON</h1>
+                <ul>
+                    <li><a href="Magayon Salon.html">HOME</a></li>
+                    <li><a href="sub/services.html">SERVICES</a></li>
+                    <li><a href="sub/events.html">EVENTS</a></li>
+                    <li><a href="sub/contact.html">CONTACT</a></li>
+                    <li><a href="sub/about.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <hr class="white">
+        </div>
+
+        <div class="background-image">
+            <div class="content">
+                <h2 class="main-header">Discover Your Best Look</h2>
+                <h3>with</h3>
+                <h1>Magayon Salon</h1>
+                <h6>FOR MEN & WOMEN</h6>
+            </div>
+            <div class="button-container">
+                <button id="bookNowButton" class="fixed-button" onclick="scrollToTop()">BOOK NOW<span></span></button>
+            </div>
+        </div>
+
+        <div class="our">
+            <img class="likod" src="pic/bg.png">
+            <h1>Our Services</h1>
+            <div class="stall">
+                <div class="that-services">
+                    <div class="box">
+                        <a href="sub/services.html#haircut_section">
+                            <h2 class="service-header">Haircut</h2>
+                            <img src="pic/haircut.jpg" alt="Haircut">
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="sub/services.html#treatment_section">
+                            <h2 class="service-header">Treatment</h2>
+                            <img src="pic/treatment.jpg" alt="Treatment">
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="sub/services.html#haircolor_section">
+                            <h2 class="service-header">Fashion Color</h2>
+                            <img src="pic/haircolor.jpg" alt="Fashion Color">
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="sub/services.html#makeup_section">
+                            <h2 class="service-header">Make-up</h2>
+                            <img src="pic/makeup.jpg" alt="Make-up">
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="sub/services.html#perm_section">
+                            <h2 class="service-header">Hair Perming</h2>
+                            <img src="pic/perm.jpg" alt="Hair Perming">
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="sub/services.html#package_section">
+                            <h2 class="service-header">Packages</h2>
+                            <img src="pic/package.jpg" alt="Packages">
+                        </a>
+                    </div>
+                </div>
+                <h2>Tiangge 202 Space Rental, next to 101</h2>
+                <h2>Department Store, Stall number 3</h2>
+                <div class="button-fixed">
+                    <button id="anotherButton" class="another-button" onclick="handleAnotherButtonClick()">Book Now<span></span></button>
+                </div>
+                <br>
+                <img src="pic/try'.png" alt="logo" class="logo-bottom">
+                <br>
+            </div>
+        </div>
+
+        <hr class="hr_below">
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy;  Magayon Salon 2023</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+        <script>
+            document.getElementById('bookNowButton').addEventListener('click', function() {
+                window.location.href = 'sub/contact.html';
+            });
+        
+            document.getElementById('anotherButton').addEventListener('click', function() {
+                window.location.href = 'sub/contact.html';
+            });
+        </script>
+        
+        
+    </body>
+    </html>
